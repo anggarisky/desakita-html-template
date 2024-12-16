@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Penyetujuan Request</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-white min-h-screen flex">
+  <!-- Sidebar -->
+  <aside class="bg-gray-800 w-1/4 p-4">
+    <h1 class="text-2xl font-bold mb-4">Kepala Desa</h1>
+    <ul class="space-y-2">
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Dashboard</a></li>
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Kepala Rumah</a></li>
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Bansos</a></li>
+      <li><a href="#" class="block p-2 bg-white text-gray-900 rounded">Pengajuan</a></li>
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Events</a></li>
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Pembangunan</a></li>
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Profile</a></li>
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Logout</a></li>
+    </ul>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="flex-1 bg-gray-100 text-black p-6">
+    <h2 class="text-2xl font-bold mb-6">Penyetujuan Request</h2>
+    <div class="bg-white p-6 rounded shadow">
+      <div class="flex justify-between items-center">
+        <div>
+          <h3 class="font-bold text-lg">Bantuan Rakyat Miskin</h3>
+          <p class="text-gray-500">Total Tunai Rp 123.000.000</p>
+          <p class="text-gray-500">Tersisa Rp 22.590.495</p>
+          <p class="text-gray-500">Diberikan oleh PT ANGGA MEMBANGUN INDONESIA</p>
+        </div>
+      </div>
+
+      <div class="mt-6">
+        <p class="font-bold">Mengajukan Rp 200.000</p>
+        <p><strong>Message:</strong> Saya akan menggunakan dana bantuan untuk membeli beras karena baru saja terkena PHK.</p>
+      </div>
+
+      <div class="mt-6 bg-gray-100 p-4 rounded shadow">
+        <p class="font-bold">Saputra Dwi Putria</p>
+        <p class="text-gray-500">Pengusaha Tambang • 1293812372934 • 3 anggota keluarga</p>
+      </div>
+
+      <div class="mt-6">
+        <p class="font-bold">Kirim biaya kepada rekening berikut:</p>
+        <p>BCA • Saputra • 1239812981</p>
+        <div class="mt-4">
+          <label class="block text-gray-700 font-bold mb-2">Upload bukti transfer</label>
+          <input
+            type="file"
+            class="p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-purple-500"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="flex justify-between mt-6">
+      <button class="bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600">Confirm & Approve</button>
+      <button class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">Decline</button>
+    </div>
+  </main>
+</body>
+
+</html>

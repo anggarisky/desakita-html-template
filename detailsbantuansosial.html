@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Details Bantuan Sosial</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-white min-h-screen flex">
+  <!-- Sidebar -->
+  <aside class="bg-gray-800 w-1/4 p-4">
+    <h1 class="text-2xl font-bold mb-4">Kepala Desa</h1>
+    <ul class="space-y-2">
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Dashboard</a></li>
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Kepala Rumah</a></li>
+      <li><a href="#" class="block p-2 bg-white text-gray-900 rounded">Bansos</a></li>
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Pengajuan</a></li>
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Events</a></li>
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Pembangunan</a></li>
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Profile</a></li>
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Logout</a></li>
+    </ul>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="flex-1 bg-gray-100 text-black p-6">
+    <h2 class="text-2xl font-bold mb-6">Details Bantuan Sosial</h2>
+    <div class="bg-white p-6 rounded shadow">
+      <div class="flex justify-between items-center">
+        <div>
+          <h3 class="font-bold text-xl">Bantuan Rakyat Miskin</h3>
+          <p class="text-gray-500">Uang Tunai Rp 123.000.000</p>
+          <p class="text-gray-500">Diberikan oleh PT ANGGA MEMBANGUN INDONESIA</p>
+        </div>
+        <button class="bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600">Edit Data</button>
+      </div>
+
+      <div class="mt-6">
+        <h4 class="font-bold text-lg">About</h4>
+        <p class="text-gray-500 mt-2">
+          Laravel 11 adalah pilihan tepat bagi pemula yang ingin belajar web development dengan cara yang lebih terstruktur dan efisien.
+          Dengan framework ini, Anda dapat membangun website profesional untuk perusahaan, menjangkau lebih banyak customer, dan mempromosikan produk atau jasa secara efektif.
+          Mulailah perjalanan Anda dengan memahami dasar-dasar Laravel dan jangan lupa untuk terus berlatih.
+        </p>
+      </div>
+
+      <div class="mt-6 grid grid-cols-3 gap-4">
+        <div>
+          <p><strong>Pemberi Bantuan Sosial</strong></p>
+          <p class="text-gray-500">PT ANGGA MEMBANGUN INDONESIA</p>
+        </div>
+        <div>
+          <p><strong>Availability</strong></p>
+          <p class="text-gray-500">Available</p>
+        </div>
+        <div>
+          <p><strong>Status</strong></p>
+          <p class="text-gray-500">Success Received</p>
+        </div>
+        <div>
+          <p><strong>Category</strong></p>
+          <p class="text-gray-500">Uang Tunai</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-6 bg-white p-6 rounded shadow">
+      <div class="flex justify-between items-center">
+        <h4 class="font-bold text-lg">Orang Terakhir Mengajukan Bantuan</h4>
+        <button class="text-purple-500 hover:underline">View All</button>
+      </div>
+
+      <div class="mt-4 space-y-4">
+        <div class="flex justify-between items-center bg-gray-100 p-4 rounded">
+          <div>
+            <h5 class="font-bold">Rp 1.500.000</h5>
+            <p class="text-gray-500">Diberikan kepada Angga (12938293)</p>
+          </div>
+          <div>
+            <p class="text-gray-500">Tue, 10 December 2024</p>
+            <p class="text-green-500 font-bold">SUCCESS</p>
+          </div>
+        </div>
+        <div class="flex justify-between items-center bg-gray-100 p-4 rounded">
+          <div>
+            <h5 class="font-bold">Rp 1.500.000</h5>
+            <p class="text-gray-500">Diberikan kepada Angga (12938293)</p>
+          </div>
+          <div>
+            <p class="text-gray-500">Tue, 10 December 2024</p>
+            <p class="text-green-500 font-bold">SUCCESS</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-6 bg-white p-6 rounded shadow">
+      <h4 class="font-bold text-lg text-red-500">Danger Zone</h4>
+      <button class="mt-4 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">Delete</button>
+    </div>
+  </main>
+</body>
+
+</html>

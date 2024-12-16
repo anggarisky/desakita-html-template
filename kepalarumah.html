@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kepala Desa Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-white min-h-screen flex flex-col">
+  <div class="flex h-screen">
+    <!-- Sidebar -->
+    <aside class="bg-gray-800 w-1/4 p-4 flex flex-col space-y-4">
+      <h1 class="text-2xl font-bold">Kepala Desa</h1>
+      <ul class="space-y-2">
+        <li><a href="#" class="block p-2 rounded bg-gray-700 hover:bg-gray-600">Dashboard</a></li>
+        <li><a href="#" class="block p-2 rounded bg-white text-gray-900">Kepala Rumah</a></li>
+        <li><a href="#" class="block p-2 rounded bg-gray-700 hover:bg-gray-600">Bansos</a></li>
+        <li><a href="#" class="block p-2 rounded bg-gray-700 hover:bg-gray-600">Pengajuan</a></li>
+        <li><a href="#" class="block p-2 rounded bg-gray-700 hover:bg-gray-600">Events</a></li>
+        <li><a href="#" class="block p-2 rounded bg-gray-700 hover:bg-gray-600">Pembangunan</a></li>
+        <li><a href="#" class="block p-2 rounded bg-gray-700 hover:bg-gray-600">Profile</a></li>
+        <li><a href="#" class="block p-2 rounded bg-gray-700 hover:bg-gray-600">Logout</a></li>
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 bg-gray-100 text-black p-6">
+      <h2 class="text-2xl font-bold mb-4">Kepala Rumah</h2>
+      <div class="flex justify-between items-center mb-4">
+        <input
+          type="text"
+          placeholder="Search by Name or NIK"
+          class="w-2/3 p-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-500"
+        />
+        <button class="bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600">Add New</button>
+      </div>
+      <div class="space-y-4">
+        <!-- List Item -->
+        <div class="flex justify-between items-center bg-white p-4 rounded shadow">
+          <div>
+            <h3 class="font-bold text-lg">Saputra Dwi Putria</h3>
+            <p class="text-gray-500">Pengusaha Tambang</p>
+            <p class="text-gray-500">1293812372934 • 3 anggota keluarga</p>
+          </div>
+          <button class="bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600">Manage</button>
+        </div>
+        <!-- Repeat List Items -->
+        <div class="flex justify-between items-center bg-white p-4 rounded shadow">
+          <div>
+            <h3 class="font-bold text-lg">Saputra Dwi Putria</h3>
+            <p class="text-gray-500">Pengusaha Tambang</p>
+            <p class="text-gray-500">1293812372934 • 3 anggota keluarga</p>
+          </div>
+          <button class="bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600">Manage</button>
+        </div>
+        <!-- Add more list items as needed -->
+      </div>
+
+      <!-- Pagination -->
+      <div class="flex justify-center space-x-2 mt-6">
+        <button class="w-8 h-8 rounded-full bg-gray-300 text-gray-800">1</button>
+        <button class="w-8 h-8 rounded-full bg-black text-white">2</button>
+        <button class="w-8 h-8 rounded-full bg-gray-300 text-gray-800">3</button>
+        <button class="w-8 h-8 rounded-full bg-gray-300 text-gray-800">4</button>
+        <button class="w-8 h-8 rounded-full bg-gray-300 text-gray-800">5</button>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>

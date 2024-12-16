@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pengajuan Bansos</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-white min-h-screen flex">
+  <!-- Sidebar -->
+  <aside class="bg-gray-800 w-1/4 p-4">
+    <h1 class="text-2xl font-bold mb-4">Kepala Desa</h1>
+    <ul class="space-y-2">
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Dashboard</a></li>
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Kepala Rumah</a></li>
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Bansos</a></li>
+      <li><a href="#" class="block p-2 bg-white text-gray-900 rounded">Pengajuan</a></li>
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Events</a></li>
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Pembangunan</a></li>
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Profile</a></li>
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Logout</a></li>
+    </ul>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="flex-1 bg-gray-100 text-black p-6">
+    <h2 class="text-2xl font-bold mb-6">Pengajuan Bansos</h2>
+    <div class="flex justify-between items-center mb-4">
+      <input
+        type="text"
+        placeholder="Search by Name or NIK"
+        class="w-2/3 p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-purple-500"
+      />
+    </div>
+    <div class="space-y-4">
+      <!-- Row 1 -->
+      <div class="flex justify-between items-center bg-white p-4 rounded shadow">
+        <div>
+          <h3 class="font-bold text-lg">Mengajukan Rp 200.000</h3>
+          <p class="text-gray-500">Pada Bantuan Rakyat Miskin</p>
+          <p class="text-gray-500">Diajukan oleh Angga Risky • 2198398409</p>
+        </div>
+        <div class="flex space-x-2">
+          <button class="bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600">Approve</button>
+          <button class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">Decline</button>
+        </div>
+      </div>
+      <!-- Row 2 -->
+      <div class="flex justify-between items-center bg-white p-4 rounded shadow">
+        <div>
+          <h3 class="font-bold text-lg">Mengajukan Rp 200.000</h3>
+          <p class="text-gray-500">Pada Bantuan Rakyat Miskin</p>
+          <p class="text-gray-500">Diajukan oleh Angga Risky • 2198398409</p>
+        </div>
+        <button class="bg-yellow-500 text-black px-4 py-2 rounded cursor-not-allowed">Declined</button>
+      </div>
+      <!-- Row 3 -->
+      <div class="flex justify-between items-center bg-white p-4 rounded shadow">
+        <div>
+          <h3 class="font-bold text-lg">Mengajukan Rp 200.000</h3>
+          <p class="text-gray-500">Pada Bantuan Rakyat Miskin</p>
+          <p class="text-gray-500">Diajukan oleh Angga Risky • 2198398409</p>
+        </div>
+        <button class="bg-green-500 text-white px-4 py-2 rounded cursor-not-allowed">Approved & Sent</button>
+      </div>
+      <!-- Row 4 -->
+      <div class="flex justify-between items-center bg-white p-4 rounded shadow">
+        <div>
+          <h3 class="font-bold text-lg">Mengajukan Rp 200.000</h3>
+          <p class="text-gray-500">Pada Bantuan Rakyat Miskin</p>
+          <p class="text-gray-500">Diajukan oleh Angga Risky • 2198398409</p>
+        </div>
+        <div class="flex space-x-2">
+          <button class="bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600">Approve</button>
+          <button class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">Decline</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pagination -->
+    <div class="flex justify-center space-x-2 mt-6">
+      <button class="w-8 h-8 rounded-full bg-gray-300 text-gray-800 hover:bg-gray-400">1</button>
+      <button class="w-8 h-8 rounded-full bg-black text-white">2</button>
+      <button class="w-8 h-8 rounded-full bg-gray-300 text-gray-800 hover:bg-gray-400">3</button>
+      <button class="w-8 h-8 rounded-full bg-gray-300 text-gray-800 hover:bg-gray-400">4</button>
+      <button class="w-8 h-8 rounded-full bg-gray-300 text-gray-800 hover:bg-gray-400">5</button>
+    </div>
+  </main>
+</body>
+
+</html>

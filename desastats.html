@@ -1,0 +1,129 @@
+Below is the HTML code for this updated dashboard interface using Tailwind CSS.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desa Stats</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-white min-h-screen flex flex-col">
+  <div class="flex h-screen">
+    <!-- Sidebar -->
+    <aside class="bg-gray-800 w-1/4 p-4 flex flex-col space-y-4">
+      <h1 class="text-2xl font-bold">Kepala Desa</h1>
+      <ul class="space-y-2">
+        <li><a href="#" class="block p-2 rounded bg-white text-gray-900">Dashboard</a></li>
+        <li><a href="#" class="block p-2 rounded bg-gray-700 hover:bg-gray-600">Kepala Rumah</a></li>
+        <li><a href="#" class="block p-2 rounded bg-gray-700 hover:bg-gray-600">Bansos</a></li>
+        <li><a href="#" class="block p-2 rounded bg-gray-700 hover:bg-gray-600">Pengajuan</a></li>
+        <li><a href="#" class="block p-2 rounded bg-gray-700 hover:bg-gray-600">Events</a></li>
+        <li><a href="#" class="block p-2 rounded bg-gray-700 hover:bg-gray-600">Pembangunan</a></li>
+        <li><a href="#" class="block p-2 rounded bg-gray-700 hover:bg-gray-600">Profile</a></li>
+        <li><a href="#" class="block p-2 rounded bg-gray-700 hover:bg-gray-600">Logout</a></li>
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 bg-gray-100 text-black p-6">
+      <h2 class="text-2xl font-bold mb-4">Desa Statistics</h2>
+      <div class="flex justify-between items-center mb-4">
+        <h3 class="text-lg">Desa Statistics</h3>
+        <button class="bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600">Download Report</button>
+      </div>
+
+      <!-- Statistics Cards -->
+      <div class="grid grid-cols-3 gap-4 mb-6">
+        <div class="p-4 bg-white rounded shadow text-center">
+          <h3 class="text-3xl font-bold">189,498</h3>
+          <p class="text-gray-500">Penduduk</p>
+        </div>
+        <div class="p-4 bg-white rounded shadow text-center">
+          <h3 class="text-3xl font-bold">23,412</h3>
+          <p class="text-gray-500">Kepala</p>
+        </div>
+        <div class="p-4 bg-white rounded shadow text-center">
+          <h3 class="text-3xl font-bold">194</h3>
+          <p class="text-gray-500">Bantuan Sosial</p>
+        </div>
+        <div class="p-4 bg-white rounded shadow text-center">
+          <h3 class="text-3xl font-bold">12</h3>
+          <p class="text-gray-500">Events</p>
+        </div>
+        <div class="p-4 bg-white rounded shadow text-center">
+          <h3 class="text-3xl font-bold">14,593</h3>
+          <p class="text-gray-500">Rencana Pembangunan</p>
+        </div>
+        <div class="p-4 bg-white rounded shadow text-center">
+          <h3 class="text-3xl font-bold">1,834</h3>
+          <p class="text-gray-500">Applicants</p>
+        </div>
+      </div>
+
+      <!-- Latest Bantuan and Applicants -->
+      <div class="grid grid-cols-2 gap-6">
+        <!-- Latest Bantuan -->
+        <div>
+          <h3 class="text-lg font-bold mb-4">Latest Bantuan</h3>
+          <div class="space-y-4">
+            <div class="p-4 bg-white rounded shadow">
+              <p class="font-bold">Uang Tunai Rp 120.000.000</p>
+              <p class="text-gray-500">Diberikan oleh Angga</p>
+              <p class="text-green-500 font-bold">SUCCESS</p>
+            </div>
+            <div class="p-4 bg-white rounded shadow">
+              <p class="font-bold">Uang Tunai Rp 120.000.000</p>
+              <p class="text-gray-500">Diberikan oleh Angga</p>
+              <p class="text-green-500 font-bold">SUCCESS</p>
+            </div>
+            <div class="p-4 bg-white rounded shadow">
+              <p class="font-bold">Uang Tunai Rp 120.000.000</p>
+              <p class="text-gray-500">Diberikan oleh Angga</p>
+              <p class="text-green-500 font-bold">SUCCESS</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Latest Applicants -->
+        <div>
+          <h3 class="text-lg font-bold mb-4">Latest Applicant</h3>
+          <div class="space-y-4">
+            <div class="p-4 bg-white rounded shadow flex items-center">
+              <div class="w-16 h-16 bg-gray-300 rounded-full mr-4"></div>
+              <div>
+                <p class="font-bold">Anga Riskya</p>
+                <p class="text-gray-500">Melamar Pembangunan Jembatan Dua</p>
+              </div>
+            </div>
+            <div class="p-4 bg-white rounded shadow flex items-center">
+              <div class="w-16 h-16 bg-gray-300 rounded-full mr-4"></div>
+              <div>
+                <p class="font-bold">Anga Riskya</p>
+                <p class="text-gray-500">Melamar Pembangunan Jembatan Dua</p>
+              </div>
+            </div>
+            <div class="p-4 bg-white rounded shadow flex items-center">
+              <div class="w-16 h-16 bg-gray-300 rounded-full mr-4"></div>
+              <div>
+                <p class="font-bold">Anga Riskya</p>
+                <p class="text-gray-500">Melamar Pembangunan Jembatan Dua</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
+```
+
+### Instructions:
+1. Copy this code into a `.html` file.
+2. Open it in a browser to see the design.
+3. Customize the data and styles further if needed!

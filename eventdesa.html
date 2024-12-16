@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Desa Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-white min-h-screen flex">
+  <!-- Sidebar -->
+  <aside class="bg-gray-800 w-1/4 p-4">
+    <h1 class="text-2xl font-bold mb-4">Kepala Desa</h1>
+    <ul class="space-y-2">
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Dashboard</a></li>
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Kepala Rumah</a></li>
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Bansos</a></li>
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Pengajuan</a></li>
+      <li><a href="#" class="block p-2 bg-white text-gray-900 rounded">Events</a></li>
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Pembangunan</a></li>
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Profile</a></li>
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Logout</a></li>
+    </ul>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="flex-1 bg-gray-100 text-black p-6">
+    <div class="flex justify-between mb-4">
+      <h2 class="text-2xl font-bold">Event Desa</h2>
+      <button class="bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600">Add New</button>
+    </div>
+    <input
+      type="text"
+      placeholder="Search by Name"
+      class="w-full p-3 border border-gray-300 rounded mb-6 focus:outline-none focus:ring-2 focus:ring-purple-500"
+    />
+
+    <!-- Event List -->
+    <div class="space-y-4">
+      <!-- Event Card -->
+      <div class="flex justify-between items-center bg-white p-4 rounded shadow">
+        <div>
+          <h3 class="font-bold">Belajar Coding Bersama</h3>
+          <p class="text-gray-500">Rp 129.000 • Started at 12 Dec 2024 • 11:30 AM</p>
+        </div>
+        <button class="bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600">Manage</button>
+      </div>
+      <div class="flex justify-between items-center bg-white p-4 rounded shadow">
+        <div>
+          <h3 class="font-bold">Belajar Coding Bersama</h3>
+          <p class="text-gray-500">Rp 129.000 • Started at 12 Dec 2024 • 11:30 AM</p>
+        </div>
+        <button class="bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600">Manage</button>
+      </div>
+      <div class="flex justify-between items-center bg-white p-4 rounded shadow">
+        <div>
+          <h3 class="font-bold">Belajar Coding Bersama</h3>
+          <p class="text-gray-500">Rp 129.000 • Started at 12 Dec 2024 • 11:30 AM</p>
+        </div>
+        <button class="bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600">Manage</button>
+      </div>
+    </div>
+
+    <!-- Pagination -->
+    <div class="flex justify-center space-x-2 mt-6">
+      <button class="w-8 h-8 rounded-full bg-gray-300 text-gray-800 hover:bg-gray-400">1</button>
+      <button class="w-8 h-8 rounded-full bg-black text-white">2</button>
+      <button class="w-8 h-8 rounded-full bg-gray-300 text-gray-800 hover:bg-gray-400">3</button>
+      <button class="w-8 h-8 rounded-full bg-gray-300 text-gray-800 hover:bg-gray-400">4</button>
+      <button class="w-8 h-8 rounded-full bg-gray-300 text-gray-800 hover:bg-gray-400">5</button>
+    </div>
+  </main>
+</body>
+
+</html>

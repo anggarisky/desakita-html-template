@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Data Profile Desa</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-white min-h-screen flex">
+  <!-- Sidebar -->
+  <aside class="bg-gray-800 w-1/4 p-4">
+    <h1 class="text-2xl font-bold mb-4">Kepala Desa</h1>
+    <ul class="space-y-2">
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Dashboard</a></li>
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Kepala Rumah</a></li>
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Bansos</a></li>
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Pengajuan</a></li>
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Events</a></li>
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Pembangunan</a></li>
+      <li><a href="#" class="block p-2 bg-white text-gray-900 rounded">Profile</a></li>
+      <li><a href="#" class="block p-2 bg-gray-700 rounded hover:bg-gray-600">Logout</a></li>
+    </ul>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="flex-1 bg-gray-100 text-black p-6">
+    <h2 class="text-2xl font-bold mb-6">Edit Data Profile Desa</h2>
+    <form class="grid grid-cols-2 gap-4">
+      <!-- Input Fields -->
+      <input
+        type="number"
+        placeholder="Input total people"
+        class="p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-purple-500"
+      />
+      <textarea
+        placeholder="Textarea about"
+        class="p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-purple-500"
+      ></textarea>
+      <select class="p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-purple-500">
+        <option>Select option dipimpin oleh</option>
+        <option>Leader 1</option>
+        <option>Leader 2</option>
+      </select>
+      <input
+        type="file"
+        placeholder="Add thumbnail attachment..."
+        class="p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-purple-500"
+      />
+      <input
+        type="number"
+        placeholder="Input total area size"
+        class="p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-purple-500"
+      />
+      <input
+        type="number"
+        placeholder="Input total agri size"
+        class="p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-purple-500"
+      />
+    </form>
+
+    <!-- Photo Gallery -->
+    <div class="mt-6 bg-white p-6 rounded shadow">
+      <h4 class="font-bold text-lg mb-4">Photo Gallery</h4>
+      <div class="grid grid-cols-3 gap-4">
+        <div class="bg-gray-200 h-32 rounded flex items-center justify-center">
+          <p class="text-gray-500">Add/Delete Photo</p>
+        </div>
+        <div class="bg-gray-200 h-32 rounded flex items-center justify-center">
+          <p class="text-gray-500">Add/Delete Photo</p>
+        </div>
+        <div class="bg-gray-200 h-32 rounded flex items-center justify-center">
+          <p class="text-gray-500">Add/Delete Photo</p>
+        </div>
+        <div class="bg-gray-200 h-32 rounded flex items-center justify-center">
+          <p class="text-gray-500">Add/Delete Photo</p>
+        </div>
+        <div class="bg-gray-200 h-32 rounded flex items-center justify-center">
+          <p class="text-gray-500">Add/Delete Photo</p>
+        </div>
+        <div class="bg-gray-200 h-32 rounded flex items-center justify-center">
+          <p class="text-gray-500">Add/Delete Photo</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Submit Button -->
+    <button
+      type="submit"
+      class="mt-6 w-full bg-purple-500 text-white py-3 rounded hover:bg-purple-600"
+    >
+      Add New
+    </button>
+  </main>
+</body>
+
+</html>
